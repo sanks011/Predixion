@@ -11721,8 +11721,8 @@
         "english_vs_hinglish_tool_delta_pct": 0.0,
         "english_vs_hinglish_argument_accuracy_delta_pct": 40.0
       },
-      "p95_latency_ms": 2488.94,
-      "avg_latency_ms": 1936.71,
+      "p95_latency_ms": 9174.6,
+      "avg_latency_ms": 2666.33,
       "error_taxonomy": {
         "date_format_drift": 0,
         "amount_type_mismatch": 0,
@@ -11734,9 +11734,9 @@
         {
           "pred_tool": "capture_ptp",
           "pred_args": {
-            "confidence": "firm",
             "promised_amount": 5000,
-            "promised_date": "2026-09-15"
+            "promised_date": "2026-09-15",
+            "confidence": "firm"
           },
           "expected_tool": "capture_ptp",
           "expected_args": {
@@ -11753,14 +11753,14 @@
           "case_id": "PS3_EN_001",
           "language": "en",
           "utterance": "I will definitely pay the overdue amount of Rs 5000 on 2026-09-15.",
-          "latency_ms": 2488.94
+          "latency_ms": 9174.6
         },
         {
           "pred_tool": "capture_ptp",
           "pred_args": {
-            "confidence": "firm",
             "promised_amount": 5000,
-            "promised_date": "2026-09-15"
+            "promised_date": "2026-09-15",
+            "confidence": "firm"
           },
           "expected_tool": "capture_ptp",
           "expected_args": {
@@ -11777,7 +11777,7 @@
           "case_id": "PS3_HINGLISH_002",
           "language": "hinglish",
           "utterance": "Main 2026-09-15 ko pakka 5000 rupaye pay kar dunga.",
-          "latency_ms": 1799.54
+          "latency_ms": 1904.18
         },
         {
           "pred_tool": "capture_ptp",
@@ -11801,14 +11801,14 @@
           "case_id": "PS3_EN_003",
           "language": "en",
           "utterance": "I can transfer 12,500 rupees on 2026-09-20.",
-          "latency_ms": 1935.19
+          "latency_ms": 2011.33
         },
         {
           "pred_tool": "capture_ptp",
           "pred_args": {
+            "promised_amount": 8500,
             "promised_date": "2026-09-20",
-            "confidence": "firm",
-            "promised_amount": 8500
+            "confidence": "firm"
           },
           "expected_tool": "capture_ptp",
           "expected_args": {
@@ -11825,7 +11825,7 @@
           "case_id": "PS3_HINGLISH_004",
           "language": "hinglish",
           "utterance": "Barah hazaar paanch sau rupaye main 2026-09-20 ko bhej sakta hoon.",
-          "latency_ms": 1795.93
+          "latency_ms": 1884.5
         },
         {
           "pred_tool": "capture_ptp",
@@ -11849,14 +11849,14 @@
           "case_id": "PS3_EN_005",
           "language": "en",
           "utterance": "Record my commitment for 3500 on 2026-09-10.",
-          "latency_ms": 1941.57
+          "latency_ms": 1962.12
         },
         {
           "pred_tool": "capture_ptp",
           "pred_args": {
-            "promised_amount": 3500,
             "promised_date": "2026-09-10",
-            "confidence": "firm"
+            "confidence": "firm",
+            "promised_amount": 3500
           },
           "expected_tool": "capture_ptp",
           "expected_args": {
@@ -11873,14 +11873,14 @@
           "case_id": "PS3_HINGLISH_006",
           "language": "hinglish",
           "utterance": "Mera 3500 ka payment 2026-09-10 ko pakka note kar lo.",
-          "latency_ms": 1807.03
+          "latency_ms": 1885.26
         },
         {
           "pred_tool": "capture_ptp",
           "pred_args": {
-            "promised_amount": 8000,
             "promised_date": "2026-09-12",
-            "confidence": "firm"
+            "confidence": "firm",
+            "promised_amount": 8000
           },
           "expected_tool": "capture_ptp",
           "expected_args": {
@@ -11897,14 +11897,14 @@
           "case_id": "PS3_EN_007",
           "language": "en",
           "utterance": "I will clear the entire pending installment of 8000 on 2026-09-12.",
-          "latency_ms": 1971.34
+          "latency_ms": 1997.5
         },
         {
           "pred_tool": "capture_ptp",
           "pred_args": {
-            "promised_date": "2026-09-12",
             "confidence": "firm",
-            "promised_amount": 1000000
+            "promised_amount": 1000000,
+            "promised_date": "2026-09-12"
           },
           "expected_tool": "capture_ptp",
           "expected_args": {
@@ -11921,7 +11921,7 @@
           "case_id": "PS3_HINGLISH_008",
           "language": "hinglish",
           "utterance": "Aath hazaar ki poori EMI main 2026-09-12 ko clear kar dunga.",
-          "latency_ms": 1932.34
+          "latency_ms": 2004.3
         },
         {
           "pred_tool": "capture_ptp",
@@ -11945,14 +11945,14 @@
           "case_id": "PS3_EN_009",
           "language": "en",
           "utterance": "Salary credits on the 10th. I will pay 15000 on 2026-09-11.",
-          "latency_ms": 1850.91
+          "latency_ms": 1915.84
         },
         {
           "pred_tool": "capture_ptp",
           "pred_args": {
-            "promised_date": "2026-09-11",
             "confidence": "firm",
-            "promised_amount": 15000
+            "promised_amount": 15000,
+            "promised_date": "2026-09-11"
           },
           "expected_tool": "capture_ptp",
           "expected_args": {
@@ -11969,7 +11969,7 @@
           "case_id": "PS3_HINGLISH_010",
           "language": "hinglish",
           "utterance": "Salary 10 tarikh ko aayegi. Main 2026-09-11 ko 15000 pay kar dunga.",
-          "latency_ms": 1844.31
+          "latency_ms": 1923.69
         }
       ]
     }
@@ -11980,5 +11980,5 @@
     "spurious_ptp_on_hesitant_intent": "Model over-fires capture_ptp when borrower uses non-committal discourse markers ('shayad kal dekhunga').",
     "missed_dispute_escalation": "Model fails to invoke escalate_dispute when borrower asserts identity theft or cybercrime using vernacular slang."
   },
-  "ollama_run_timestamp": "2026-09-05 14:25:46"
+  "ollama_run_timestamp": "2026-09-05 15:31:22"
 }

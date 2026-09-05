@@ -129,7 +129,6 @@ Predixion/
 │
 ├── .env                        ← API keys (never committed)
 ├── .venv/                      ← Python virtual environment
-└── config/config.yaml          ← Model + rate limit registry
 ```
 
 ### Key design decisions

@@ -1,0 +1,32 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache and bytecodes
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary scratch files and logs
+scratch/
+*.log
+*.tmp
+*.bin
+
+# OS specific files
+.DS_Store
+Thumbs.db

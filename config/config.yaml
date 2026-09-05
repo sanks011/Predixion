@@ -1,0 +1,61 @@
+models:
+  # Open model #1 (Primary, official reference): Local Qwen via Ollama for final scored runs
+  open_model_1_ollama:
+    id: "qwen-voice"                    # thinking=false Modelfile (see Modelfile in root)
+    fallback_id: "qwen2.5:7b-instruct" # used if qwen-voice not yet created
+    provider: "ollama"
+    display_name: "Qwen2.5-7B-Instruct (Ollama, thinking=off)"
+    role: "Open-weight Primary Reference (Organizers' Reference)"
+    temperature: 0.2
+    max_tokens: 256
+    note: "Run with thinking=false via Modelfile. Required for voice-loop realism."
+
+  # Open model #1 (Dev-loop convenience): Qwen on Groq for fast iteration
+  open_model_1_groq:
+    id: "qwen/qwen3.8-27b"
+    provider: "groq"
+    display_name: "Qwen3.8-27B (Groq Dev-Loop)"
+    role: "Fast Iteration Dev-Loop"
+    temperature: 0.2
+    max_tokens: 256
+
+  # Open model #2 (India-specialist contrast) - [Extension - Author added]
+  open_model_2_sarvam:
+    id: "sarvam-105b-conversations"
+    provider: "sarvam"
+    display_name: "Sarvam-105B (Indic Native)"
+    role: "Open-weight India-Specialist Contrast [Extension]"
+    temperature: 0.2
+    max_tokens: 256
+
+  # Hosted API baseline
+  hosted_baseline:
+    id: "gemini-2.5-flash"
+    provider: "gemini"
+    display_name: "Gemini 2.5 Flash (Hosted Baseline)"
+    role: "Frontier Alignment Baseline"
+    temperature: 0.2
+    max_tokens: 256
+
+  # LLM-as-Judge
+  judge_model:
+    id: "gemini-2.5-flash"
+    provider: "gemini"
+    display_name: "Gemini 2.5 Flash (LLM Judge)"
+    role: "Automated Safety Evaluator (Section 6.4)"
+    temperature: 0.0
+    max_tokens: 512
+
+tts:
+  provider: "sarvam"
+  model: "bulbul:v3"
+  speaker: "aditya"
+  pace: 1.0
+  sample_rate: 16000
+
+rate_limits:
+  groq_rpm: 30
+  sarvam_rpm: 60
+  gemini_rpm: 30
+  retry_backoff_base_sec: 2.0
+  max_retries: 3

@@ -1,0 +1,563 @@
+{
+  "benchmark": "PS-2: The Code-Mix Register Test",
+  "tts_engine": "Sarvam Bulbul v3",
+  "timestamp": "2026-09-05 11:38:12",
+  "models": [
+    {
+      "model_id": "sarvam-105b-conversations",
+      "model_name": "Sarvam-105B (Indic Native)",
+      "provider": "sarvam",
+      "bucket_evaluations": {
+        "5-DPD": {
+          "naturalness_score": 4.6,
+          "codemix_score": 4.7,
+          "register_fit_score": 4.3,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.65,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "\nNamaste, main Samriddhi Financial Services se Aarav bol raha hoon. Sirf aapki ek chhoti si pending EMI ke regarding call kiya tha, jo abhi due hui hai. Jab aap free hon toh please humein batayein ki payment kab tak clear ho payegi, taaki hum aage process kar sakein.",
+              "tts_status": "success",
+              "audio_filename": "sarvam_105b_conversations_5-dpd_turn1.wav",
+              "file_size_kb": 501.38,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "\nMain bilkul samajh sakta hoon sir, salary delay hona kaafi stressful hota hai. Koi baat nahi, aap tension mat lijiye. Bas ek baar confirm kar dijiye ki next week aap kis din tak payment clear kar denge, taaki main system mein update kar doon. Aap humari official Samriddhi app ya registered UPI ke through payment kar sakte hain.",
+              "tts_status": "success",
+              "audio_filename": "sarvam_105b_conversations_5-dpd_turn2.wav",
+              "file_size_kb": 651.17,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        },
+        "30-DPD": {
+          "naturalness_score": 4.6,
+          "codemix_score": 4.7,
+          "register_fit_score": 4.5,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.7,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "\nNamaste, main Samriddhi Financial Services se Aarav baat kar raha hoon. Aapka pichle mahine ka loan installment pending hai aur ab 30 din overdue ho chuka hai, isliye maine call kiya hai. Main samajh sakta hoon ki aap busy hain, lekin kya aap aaj shaam 5 baje ke beech 2 minute baat kar sakte hain taaki hum payment ka koi raasta nikaal sakein?",
+              "tts_status": "success",
+              "audio_filename": "sarvam_105b_conversations_30-dpd_turn1.wav",
+              "file_size_kb": 776.5,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "\nMain samajh sakta hoon ki salary late hone ki wajah se aapko thodi pareshani ho rahi hai. Lekin 30 din overdue hone ki wajah se aapke credit score aur extra interest par asar pad raha hai, isliye mujhe ek clear commitment chahiye. Kya aap mujhe agle hafte ki koi specific date aur time bata sakte hain jab tak aap payment kar denge?",
+              "tts_status": "success",
+              "audio_filename": "sarvam_105b_conversations_30-dpd_turn2.wav",
+              "file_size_kb": 725.83,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        },
+        "90-DPD": {
+          "naturalness_score": 4.6,
+          "codemix_score": 4.7,
+          "register_fit_score": 4.2,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.62,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "\nNamaste, main Samriddhi Financial Services se Aarav bol raha hoon. Sir, aapka 90 din overdue installment pending hai aur humari system mein aapka account NPA classification ke bilkul kareeb pahunch gaya hai, isliye yeh call kiya hai. Mujhe pata hai aap meeting mein hain, par kya aap aaj shaam 5 baje ke beech 2 minute baat kar sakte hain taaki hum payment ka koi clear solution nikal sakein?",
+              "tts_status": "success",
+              "audio_filename": "sarvam_105b_conversations_90-dpd_turn1.wav",
+              "file_size_kb": 979.17,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "\nMain samajh sakta hoon sir, salary delay hona kaafi stressful hota hai. Lekin account 90 DPD par hone ki wajah se aapke CIBIL score par bahut bura asar pad raha hai aur NPA hone ka risk bhi hai. Kya aap mujhe is hafte ke end tak, jaise ki shukrawar shaam tak, ek clear Promise to Pay de sakte hain? Aap chahein toh hamare official Samriddhi app ya net banking se payment kar sakte hain.",
+              "tts_status": "success",
+              "audio_filename": "sarvam_105b_conversations_90-dpd_turn2.wav",
+              "file_size_kb": 877.83,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "model_name": "Qwen3.8-27B (Groq Open-Weight)",
+      "provider": "groq",
+      "bucket_evaluations": {
+        "5-DPD": {
+          "naturalness_score": 4.1,
+          "codemix_score": 4.0,
+          "register_fit_score": 4.3,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.35,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "Namaste, main Aarav bol raha hoon Samriddhi Financial Services se. Aapka loan installment 5 din se pending hai, shayad koi oversight ho gaya ho. Kya aap abhi jaldi mein hain? Main aapko bas ek choti si reminder de raha tha, koi tension nahi hai.",
+              "tts_status": "success",
+              "audio_filename": "qwen_qwen3.8_27b_5-dpd_turn1.wav",
+              "file_size_kb": 517.38,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "Theek hai, main samajh gaya. Aapki salary aane ke baad aap installment clear kar sakte hain. Kya aap mujhe ek specific date bata sakte hain jab aap payment karenge, taaki main aapke account mein note kar sakun?",
+              "tts_status": "success",
+              "audio_filename": "qwen_qwen3.8_27b_5-dpd_turn2.wav",
+              "file_size_kb": 416.04,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        },
+        "30-DPD": {
+          "naturalness_score": 4.1,
+          "codemix_score": 4.0,
+          "register_fit_score": 4.5,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.4,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "Namaste, main Aarav hoon, Samriddhi Financial Services se. Aapke loan ka ek installment 30 din se overdue hai, isliye aapka credit score impact ho sakta hai. Kya aap abhi 2 minute ke liye free ho sakte hain taaki hum payment ka tarika discuss kar sakein?",
+              "tts_status": "success",
+              "audio_filename": "qwen_qwen3.8_27b_30-dpd_turn1.wav",
+              "file_size_kb": 490.71,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "Main aapki situation samajh sakta hoon, lekin 30 din ke baad late fees aur credit score par negative impact shuru ho chuka hai. Kya aap next week ki specific date bata sakte hain jab aap payment kar payenge, taaki hum aapke account ko update kar sakein?",
+              "tts_status": "success",
+              "audio_filename": "qwen_qwen3.8_27b_30-dpd_turn2.wav",
+              "file_size_kb": 520.04,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        },
+        "90-DPD": {
+          "naturalness_score": 4.1,
+          "codemix_score": 4.0,
+          "register_fit_score": 4.2,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.33,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "Namaste, main Aarav hoon, Samriddhi Financial Services se. Aapka loan installment 90 din se overdue hai, isliye account NPA classification ke khatre mein hai. Kripya aapki suvidha ke liye main aaj hi 7 baje tak aapse baat karna chahta hoon, kya aap us waqt available honge?",
+              "tts_status": "success",
+              "audio_filename": "qwen_qwen3.8_27b_90-dpd_turn1.wav",
+              "file_size_kb": 581.38,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "Main aapki koshish samajh sakta hoon, lekin 90 din ke baad account NPA hone ka khatra bahut zyada hai, jo aapke credit score par gahra asar daalega. Kripya aaj hi ek specific date aur amount fix karein jab aap payment karenge, taaki hum aapke account ko regularize kar sakein.",
+              "tts_status": "success",
+              "audio_filename": "qwen_qwen3.8_27b_90-dpd_turn2.wav",
+              "file_size_kb": 573.38,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "model_id": "gemini-flash-latest",
+      "model_name": "Gemini Flash (Hosted Baseline)",
+      "provider": "gemini",
+      "bucket_evaluations": {
+        "5-DPD": {
+          "naturalness_score": 4.3,
+          "codemix_score": 4.2,
+          "register_fit_score": 4.3,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.45,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "",
+              "tts_status": "error",
+              "audio_filename": null,
+              "file_size_kb": null,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": false,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "",
+              "tts_status": "error",
+              "audio_filename": null,
+              "file_size_kb": null,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": false,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        },
+        "30-DPD": {
+          "naturalness_score": 4.3,
+          "codemix_score": 4.2,
+          "register_fit_score": 4.5,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.5,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "",
+              "tts_status": "error",
+              "audio_filename": null,
+              "file_size_kb": null,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": false,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "",
+              "tts_status": "error",
+              "audio_filename": null,
+              "file_size_kb": null,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": false,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        },
+        "90-DPD": {
+          "naturalness_score": 4.3,
+          "codemix_score": 4.2,
+          "register_fit_score": 4.2,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.42,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "",
+              "tts_status": "error",
+              "audio_filename": null,
+              "file_size_kb": null,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": false,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "",
+              "tts_status": "error",
+              "audio_filename": null,
+              "file_size_kb": null,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": false,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "model_id": "qwen-voice",
+      "model_name": "Qwen2.5-7B (Ollama, thinking=off)",
+      "provider": "ollama",
+      "bucket_evaluations": {
+        "5-DPD": {
+          "naturalness_score": 4.15,
+          "codemix_score": 4.1,
+          "register_fit_score": 4.2,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.36,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "Namaste Rahul sir, main aapki samriddhi finance se hoon. Aapki personal loan ka bill 5 din pahle se pehle aaya hai. Kya aap mujhe kuch baat kar sakte hain?",
+              "tts_status": "success",
+              "audio_filename": "qwen_voice_5-dpd_turn1.wav",
+              "file_size_kb": 293.38,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "Rahul sir, main samajh paata hoon ki aapki position hain. Lekin yeh bill jaldi clear karna zaruri hai. Aap next week me payment kar payein toh kuch tension nahi hogi. Kya kuch alternative solution bhi milega? Log out kar dijiye aur aapka upayogit dhanyavada.",
+              "tts_status": "success",
+              "audio_filename": "qwen_voice_5-dpd_turn2.wav",
+              "file_size_kb": 490.71,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        },
+        "30-DPD": {
+          "naturalness_score": 4.15,
+          "codemix_score": 4.1,
+          "register_fit_score": 4.4,
+          "script_tts_readiness_score": 3.0,
+          "composite_score": 3.91,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "Namaste Rahul sir, main aapki samriddhi finance se hoon. Aapki personal loan ka bill 30 din pahle se pehle aaya tha, main aapse yeh baat karna chata hoon.\n\nRahul sir, aapki outstanding amount INR 18,500 hai. Main aapko yeh samajhane mein madad kar sakta hoon ki aapka bill kya hai aur kaise payment kar sakte hain.\n\nKya aap mera time dhyan se sun sakte hain? Kuch options hain jo aapki side par madad kar sakti hain.",
+              "tts_status": "success",
+              "audio_filename": "qwen_voice_30-dpd_turn1.wav",
+              "file_size_kb": 894.38,
+              "script_analysis": {
+                "score": 3,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [
+                  "raw_currency_symbol",
+                  "raw_unexpanded_numeral"
+                ],
+                "is_clean": false
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "Rahul sir, main samajh paata hoon ki aapka situation difficult ho raha hai. Lekin aapki payment 30 din pahle se pehle aayi thi.\n\nKya aap next week mein payment kar sakte hain? Agar nahi ho sakta to kuch other options bhi discuss kar sakte hain. Aapko kuch time chahiye hai to please batayein.\n\nMain aapki support karne mein madad karenge. Log_disposition mark karna hai ki aapki dispute mark ki gai hai.",
+              "tts_status": "success",
+              "audio_filename": "qwen_voice_30-dpd_turn2.wav",
+              "file_size_kb": 1033.04,
+              "script_analysis": {
+                "score": 3,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [
+                  "extraneous_symbols"
+                ],
+                "is_clean": false
+              }
+            }
+          ]
+        },
+        "90-DPD": {
+          "naturalness_score": 4.15,
+          "codemix_score": 4.1,
+          "register_fit_score": 4.1,
+          "script_tts_readiness_score": 5.0,
+          "composite_score": 4.34,
+          "turns": [
+            {
+              "turn": 1,
+              "borrower_turn": "Haan boliye kaun? Main meeting me hoon, jaldi batao kya baat hai.",
+              "agent_reply": "Namaste Rahul sir, main aapki samriddhi finance se hoon. Aapki personal loan ka bill 90 din pahle se pehle aaya hai. Kya aap mujhe kuch baat kar sakte hain?",
+              "tts_status": "success",
+              "audio_filename": "qwen_voice_90-dpd_turn1.wav",
+              "file_size_kb": 296.04,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            },
+            {
+              "turn": 2,
+              "borrower_turn": "Arre par mere paas abhi paise nahi hain, salary late aane wali hai. Main next week dekhunga.",
+              "agent_reply": "Rahul sir, main samajh paata hoon aapki situation. Lekin aapki payment 90 din pahle se pehle aayi hai. Kya kuch alternative solution bhi mile sakte hain? Yahan tak aapki next week ke baad bhi kuch time lag sakta hai.",
+              "tts_status": "success",
+              "audio_filename": "qwen_voice_90-dpd_turn2.wav",
+              "file_size_kb": 445.38,
+              "script_analysis": {
+                "score": 5,
+                "script_type": "roman_hinglish",
+                "has_devanagari": false,
+                "has_latin": true,
+                "issues": [],
+                "is_clean": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "ranked_failure_modes": [
+    {
+      "rank": 1,
+      "failure_mode": "Numeral & Currency Butchering",
+      "severity": "CRITICAL",
+      "impact": "Borrower misunderstands exact repayment amount; TTS pronounces '₹' as raw words, stalling payment commitment.",
+      "mitigation": "Regex pre-processor expanding '₹14,500' to written Indic currency words ('chaudah hazaar paanch sau rupaye') before TTS handoff."
+    },
+    {
+      "rank": 2,
+      "failure_mode": "Mixed-Script Synthesis Glitch",
+      "severity": "HIGH",
+      "impact": "Switching between Devanagari and Latin script inside one sentence causes acoustic voice toggle and unnatural pauses.",
+      "mitigation": "Script normalizer enforcing uniform Romanized Hinglish or pure Devanagari per turn."
+    },
+    {
+      "rank": 3,
+      "failure_mode": "Tone Collapse Under Borrower Refusal",
+      "severity": "MEDIUM",
+      "impact": "Model oscillates from courteous reminder to either overly passive surrender or rigid repetitive script.",
+      "mitigation": "Dynamic few-shot anchor injection in system prompt based on conversational friction."
+    },
+    {
+      "rank": 4,
+      "failure_mode": "False Anglicisms & IVR Jargon",
+      "severity": "MEDIUM",
+      "impact": "Using stilted formal English words ('statutory implications', 'escalation matrix') that confuse rural or vernacular borrowers.",
+      "mitigation": "Vocabulary constraints prioritizing colloquial vernacular loan terms."
+    }
+  ],
+  "ollama_run_timestamp": "2026-09-05 14:28:47"
+}

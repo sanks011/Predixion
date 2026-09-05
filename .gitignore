@@ -30,3 +30,8 @@ scratch/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Internal presentation & video notes
+VIDEO_SCRIPT.md
+VIDEO_SCRIPT*.md
+
